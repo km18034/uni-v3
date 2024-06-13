@@ -1,0 +1,92 @@
+{
+  "objects": [
+    {
+      "id": 1,
+      "title": "Māras dīķis",
+      "intro": "Māras dīķis ir kā gleznains, mierpilns stūrītis Rīgā, kurš piedāvā īstu atelpu no pilsētas steigas. Katra apmeklējuma reize man šeit atgādina par dabas skaistumu un harmoniju, kas eksistē pat pašā pilsētas sirdī. Atrodoties starp Torņakalnu un Āgenskalnu, Māras dīķis ir kā maza, noslēpumaina oāze, kurā es bieži meklēju patvērumu un iedvesmu.",
+      "description": "Māras dīķis ir mākslīga ūdenskrātuve Rīgā uz Mārupītes starp Torņakalnu un Āgenskalnu. ",
+      "image": "marasdikis.jpg",
+      "map_image": "map_parki_maras.png",
+      "category": "parki",
+      "slug": "maras-dikis",
+      "showInFirstPage": true
+    },
+    {
+      "id": 2,
+      "title": "Akrādijas parks",
+      "intro": "Parks ar saviem gleznainajiem celiņiem, ūdenskritumiem un dīķiem piedāvā ideālu vietu nesteidzīgām pastaigām. Pavasarī un vasarā, kad koki un krūmi plaukst un zied, Arkādijas parks pārvēršas par zaļu oāzi, kur var dzirdēt putnu dziesmas un just ziedu smaržas. Bieži dodos uz parku, lai izbaudītu dabu un izdarītu lietas, kas ir darāmas.",
+      "description": "Arkādijas parks (dārzs) atrodas starp Ojāra Vācieša un Friča Brīvzemnieka ielām un Rīgas – Jūrmalas dzelzceļa līniju.",
+      "image": "arkadijasparks.jpg",
+      "map_image": "map_parki_arkadijas.png",
+      "category": "parki",
+      "slug": "arkadijas-parks",
+      "showInFirstPage": false
+    },
+    {
+      "id": 3,
+      "title": "Uzvaras parks",
+      "intro": "Uzvaras parks Pārdaugavā ir īsta aktīvās atpūtas oāze. Parkā ir dažādi ielu vingrošanas elementi, batuti, šūpoles un smilšu kaste bērniem, kur es bieži pavadu laiku ar meitu. Man patīk arī spēlēt dambreti, pingpongu un šahu pie speciāli izveidotajiem galdiem. Uzvaras parks piedāvā plašas iespējas aktīvai atpūtai, padarot katru apmeklējumu par īpašu piedzīvojumu.",
+      "description": "Parks Āgenskalna apkaimē Rīgā, ko ierobežo Ojāra Vācieša, Hermaņa iela, Aleksandra Grīna bulvāris, Uzvaras bulvāris un Raņķa dambis. To šķērso Slokas un Bāriņu ielas.",
+      "image": "uzvarasparks.jpg",
+      "map_image": "map_parki_uzvaras.png",
+      "category": "parki",
+      "slug": "uzvaras-parks",
+      "showInFirstPage": false
+    },
+    {
+      "id": 4,
+      "title": "Sakuru dārzs",
+      "intro": "Sakuras dārzs Rīgā man ir kā mazs Japānas stūrītis tepat Latvijas galvaspilsētā. Katru pavasari, kad sakuras sāk ziedēt, es cenšos atrast laiku, lai apmeklētu šo burvīgo vietu un izbaudītu tās maģisko atmosfēru. Rozā ziedu kupenas, kas klāj kokus, rada neticami skaistu ainavu, un gaiss piepildās ar maigu, saldu aromātu.",
+      "description": "Atrodas Rīgā, Pārdaugavā, pie Uzvaras parka starp Slokas un Bāriņu ielu.",
+      "image": "sakurudarza.jpg",
+      "map_image": "map_parki_sakura.png",
+      "category": "parki",
+      "slug": "sakuru-darzs",
+      "showInFirstPage": false
+    },
+    {
+      "id": 5,
+      "title": "Crumble Cake",
+      "intro": "Crumble Cake kafejnīca Vecrīgas sirdī ir kā izkāpusi no franču kino filmas – tik romantiska un burvīga. Katru reizi, kad apmeklēju šo vietu, mani apbur tās garda kafija un plašais kūku piedāvājums. Atmosfēra šeit ir unikāla: smaržas, noskaņa un skaisti trauki rada mājīgu un elegantu vidi, kas aicina uz atpūtu.",
+      "description": "Jāņa iela 14, Rīga, Centra rajons.",
+      "image": "crumblecake.jpg",
+      "map_image": "map_kafejnicas_crumble.png",
+      "category": "kafejnicas",
+      "slug": "crumble-cake",
+      "showInFirstPage": true
+    },
+    {
+      "id": 6,
+      "title": "Caffeine",
+      "intro": "Caffeine Vecrīgā ir viena no manām iecienītākajām kafejnīcām Rīgā, un man vienmēr ir prieks tur atgriezties. Kafejnīca piedāvā patīkamu atmosfēru, izcilu kafiju un draudzīgu apkalpošanu, kas padara katru apmeklējumu par patīkamu pieredzi.",
+      "description": "Kaļķu iela 28, Rīga, Centra rajons.",
+      "image": "caffeine.jpg",
+      "map_image": "map_kafejnicas_caffeine.png",
+      "category": "kafejnicas",
+      "slug": "caffeine",
+      "showInFirstPage": false
+    },
+    {
+      "id": 7,
+      "title": "Picas meistars",
+      "intro": "Ērta atrašanās vieta, jo ir pa ceļam uz centru. Iespēja ātri un garšīgi paēst.",
+      "description": "Kuģu iela 11, Rīga, pretī Latvijas Nacionālajai Bibliotēkai.",
+      "image": "picasmeistars.jpg",
+      "map_image": "map_ednicas_pica.png",
+      "category": "ednicas",
+      "slug": "picas-meistars",
+      "showInFirstPage": true
+    },
+    {
+      "id": 8,
+      "title": "Ala pagrabs",
+      "intro": "Vieta ir populāra ne tikai savu kvalitatīvo ēdienu un uzkodu dēļ, bet arī pateicoties tās īpašajai atmosfērai, dzīvajai mūzikai. Šeit vienmēr ir draudzīga un pozitīva atmosfēru, kas padara katru apmeklējumu patīkamu piedzīvojumu.",
+      "description": "Peldu iela 19, Rīga, Centra rajons.",
+      "image": "alapagrabs.jpg",
+      "map_image": "map_ednicas_ala_pagrabs.png",
+      "category": "ednicas",
+      "slug": "ala-pagrabs",
+      "showInFirstPage": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+$dark-brown:                  #181513;
+$text:                        #624738;
+$orange:                      #E19C57;
+$white:                       #ffffff;
+$darker-brown:                #472D1C;
+$grey-border:                 #E0E0E0;
+$text-10:                       rgba($text, 0.1);
+$text-20:                       rgba($text, 0.2);
+
+$usp-bg:                        $text-20;
+$usp-border:                    $orange;
+$body-bg:                       $dark-brown;
+$text-default:                  $orange;
+$footer-bg:                     $text-10;
+
+$chip-choice-active-bg:         $darker-brown;
+$chip-choice-default-bg:        $text-20;
+$chip-choice-text-default:      $orange;
+$chip-choice-text-active:       $orange;
+
+$btn-default-bg:                $darker-brown;
+$btn-default-text:              $grey-border;
+$btn-default-border:            $darker-brown;
+
+$btn-default-hover-text:        $orange;
+$btn-default-hover-bg:          $text-20;
+$btn-default-hover-border:      $orange;
+
+$btn-outline-bg:                $text-20;
+$btn-outline-text:              $grey-border;
+$btn-outline-border:            $orange;
+
+$btn-outline-hover-bg:          $text-20;
+$btn-outline-hover-text:        $orange;
+$btn-outline-hover-border:      $orange;

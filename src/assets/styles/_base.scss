@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p, ul {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Smooch Sans", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+    &.page-subtitle {
+        font-family: "Shadows Into Light Two", cursive;
+        text-transform: none;
+    }
+}
+
+a {
+    font-family: "Smooch Sans", sans-serif;
+    text-decoration: none;
+    color: $orange;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+
+    &:hover {
+        border-color: $orange;
+    }
+}
+
+.logo-container {
+    border: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    min-height: 100vh;
+    color: $text-default;
+    background: $body-bg;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-md-100 {
+    @include media-breakpoint-up(md) {
+        margin-top: 100px !important;
+    }
+}
+
+.home-page {
+    position: relative;
+
+    .line-container {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+
+        svg {
+            display: inline-block;
+            height: 100%;
+
+            path {
+                filter: drop-shadow(3px 5px 2px rgba($dark-brown, 0.4));
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
+}
+
+.back-btn-container {
+    margin-left: 30px;
+
+    .back-btn {
+        a {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            border-bottom: none;
+
+            .back-arrow {
+                display: inline-block;
+                width: 20px;
+                height: 17px;
+                background: url(/src/assets/svg/caret-d.svg) no-repeat center center;
+                background-size: 16px;
+                transform: rotate(90deg);
+                margin-right: 10px;
+                margin-bottom: 4px;
+            }
+
+            &:hover {
+                font-weight: 400;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

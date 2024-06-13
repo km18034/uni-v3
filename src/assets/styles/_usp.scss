@@ -1,0 +1,26 @@
+.usp {
+    .usp-container {
+        .usp-item {
+            padding: 10px;
+            position: relative;
+            background-color: $usp-bg;
+            border: 1px solid $usp-border;
+            border-radius: 15px;
+            height: 100%;
+
+            .content {
+                text-align: center;
+
+                .title {
+                    font-weight: 700;
+                    margin: 10px 0;
+                    
+                }
+
+                .description {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

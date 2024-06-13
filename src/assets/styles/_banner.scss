@@ -1,0 +1,56 @@
+.banner {
+    height: 100vh;
+    background-color: rgb(204, 204, 204);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .banner-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+
+        .page-title {
+            font-size: 80px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 70px;
+        }
+
+        .page-subtitle {
+            position: absolute;
+            bottom: 10%;
+            text-align: center;
+            font-size: 40px;
+            max-width: 80%;
+
+            &::after {
+                content: "";
+                width: 20px;
+                height: 60px;
+                background: url("@/assets/svg/subtitle-arrow.svg") no-repeat center center;
+                position: absolute;
+                right: -30px;
+                top: 50%;
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            .page-title {
+                font-size: 50px;
+                line-height: 50px;
+            }
+
+            .page-subtitle {
+                font-size: 30px;                
+
+                &::after {
+                    right: -20px;
+                }
+            }
+        }
+    }    
+}
