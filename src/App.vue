@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header :class="{'static': $route.name.match('map') || $route.name.match('object'), 'mob-active': showMobMenu && isMobile}">
+  <header :class="{'static': isStatic, 'mob-active': showMobMenu && isMobile}">
     <div class="container header">
       <a href="/" class="logo-container">
         <img alt="KM logo" class="logo" src="@/assets/svg/logo.svg" width="60" height="60" />
@@ -136,6 +136,15 @@ export default {
     $route() {
       this.showMobMenu = false;
     }
+  },
+  computed: {
+    isStatic() {
+      if (this.$route.name) {
+        return this.$route.name.match('map') || this.$route.name.match('object');
+      }
+
+      return false;
+    },
   },
   mounted() {
     this.theme = this.getDefaultTheme();

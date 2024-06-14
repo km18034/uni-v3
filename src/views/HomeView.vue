@@ -31,7 +31,7 @@ import HomePath from '@/components/HomePath.vue';
         <div class="buttons-container">
           <MyButton
             title="Visi apskates objekti"
-            link="/map/parki"
+            link="#/map/parki"
           />
         </div>
       </div>
