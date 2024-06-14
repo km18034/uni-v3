@@ -10,7 +10,7 @@ import HomePath from '@/components/HomePath.vue';
     <Banner
       title="Mans ceļš uz Latvijas Universitāti"
       subtitle="Ienirsti manā ceļojuma burvībā"
-      background-image="dist/assets/img/university.png"
+      background-image="university.png"
     />    
     
     <div class="home-page">
