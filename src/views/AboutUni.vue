@@ -10,7 +10,7 @@ import Usp from '@/components/Usp.vue';
     <Banner
       title="Latvijas Universitāte"
       subtitle="Nāc studēt Latvijas Universitātē!"
-      background-image="dist/assets/img/uni.png"
+      background-image="img/uni.png"
     />
 
     <SectionTitle

@@ -7,7 +7,7 @@ import ChipChoice from '@/components/ChipChoice.vue';
 <template>
     <main>
       <MapBanner
-        :background-image="'../../dist/assets/img/map_' +  $route.params.category + '.png'"
+        :background-image="'img/map_' +  $route.params.category + '.png'"
       />
 
       <ChipChoice/>
@@ -20,9 +20,9 @@ import ChipChoice from '@/components/ChipChoice.vue';
         :map-list="true"
         :title="object.title"
         :description="object.intro"
-        :image="'../../dist/assets/img/' + object.image"
+        :image="'img/' + object.image"
         :change-order="key%2 !== 0"
-        :path="'../../dist/assets/svg/path_' + getPathNumber() + '.svg'"
+        :path="'svg/path_' + getPathNumber() + '.svg'"
       />
     </main>
 </template>  

@@ -23,7 +23,7 @@ import HomePath from '@/components/HomePath.vue';
         :object-category="object.category"
         :title="object.title"
         :description="object.intro"
-        :image="'../../dist/assets/img/' + object.image"
+        :image="'img/' + object.image"
         :change-order="key%2 !== 0"
       />
 

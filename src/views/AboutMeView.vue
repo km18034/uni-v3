@@ -9,7 +9,7 @@ import MyButton from '@/components/MyButton.vue';
     <Banner
       title="Par mani"
       subtitle="Aizraujošas un piedzīvojumu pilnas ziņas gaida tieši te!"
-      background-image="dist/assets/img/uni.png"
+      background-image="img/uni.png"
     />
     <SectionTitle
       title="Pievienojies maniem sociālajiem tīlkiem"

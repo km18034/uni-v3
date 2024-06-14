@@ -13,7 +13,7 @@ import MapBanner from '@/components/MapBanner.vue';
         </div>        
       </div>
       <MapBanner
-        :background-image="'../../dist/assets/img/' +  object.map_image"
+        :background-image="'img/' +  object.map_image"
       />
 
       <ObjectItem
@@ -22,8 +22,8 @@ import MapBanner from '@/components/MapBanner.vue';
         :map-list="true"
         :title="object.title"
         :description="object.intro"
-        :image="'../../dist/assets/img/' + object.image"
-        :path="'../../dist/assets/svg/path_' + getPathNumber() + '.svg'"
+        :image="'img/' + object.image"
+        :path="'svg/path_' + getPathNumber() + '.svg'"
         :show-button="false"
       />
       <div class="container">

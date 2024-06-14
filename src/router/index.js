@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import Map from '@/views/Map.vue'
 import AboutUni from '@/views/AboutUni.vue'
@@ -6,7 +6,7 @@ import AboutMeView from '../views/AboutMeView.vue'
 import ObjectView from '@/views/ObjectView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
